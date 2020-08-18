@@ -2,4 +2,4 @@ For a while we weren't sure whether we actually had everything covered. We kept 
 
 So I volunteered to double check. `counties.json` is my jsonification of html I pulled from [a table of all US counties and county equivalents on Wikipedia](https://en.wikipedia.org/wiki/List_of_United_States_counties_and_county_equivalents). I used `matches.txt` as a scratch pad to find and eliminate counties that were actually the same thing but were named differently (a few in Alaska or South Dakota where there are Anglo and Native American names, Puerto Rican municipalities where the exclusion of the ñ and other non-ASCII characters led to failed matches, etc.). `counties.py` is where I did the auto-matching logic to chop down my manual work as much as possible. `county_states.pkl` (not in version control) was an intermediate output to keep me from having to wait as long for `counties.py` to run. And finally `check_poly.py` was to make sure the list of county (and equivalent) geometries we were using covered the whole map. It generates this visualization:
 
-![](Screen Shot 2020-04-15 at 3.33.40 PM.png)
+![](Screen%20Shot%202020-04-15%20at%203.33.40%20PM.png)
