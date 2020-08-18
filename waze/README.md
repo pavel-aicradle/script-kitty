@@ -1,0 +1,1 @@
+This directory holds a number of sub-tasks, each with their own scripts, all associated to the Waze side of the "social distancing score" work we frantically did early April 2020.

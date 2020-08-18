@@ -1,0 +1,39 @@
+number of matches found: 3203
+total counties in geojson: 3221
+
+entries from wikipedia not in the geojson:
+
+islands:
+	("Manu'a District", 'American Samoa'),
+	('Kingman Reef', None
+	('Baker Island', None),
+	('Saipan', None),
+	('Saint John', 'U.S. Virgin Islands'),
+	('Swains Island', None),
+	('Midway Atoll', None),
+	('Wake Island', None),
+	('Eastern District', 'American Samoa'),
+	('Saint Thomas', 'U.S. Virgin Islands'),
+	('Guam', None),
+	('Howland Island', None),
+	('Western District', 'American Samoa'),
+	('Palmyra Atoll', None),
+	('Rose Atoll', None),
+	('Navassa Island', None),
+	('Serranilla Bank', None),
+	('Saint Croix', None),
+	('Tinian', None)
+	('Bajo Nuevo Bank', None),
+	('Johnston Atoll', None),
+	('Rota (island)', None)
+	('Jarvis Island', None),
+	('Northern Islands Municipality', None),
+
+('Jefferson Parish', 'Louisiana'),
+
+
+entries in geojson not on wikipedia:
+
+
+
+
