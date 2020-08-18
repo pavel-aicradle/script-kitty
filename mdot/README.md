@@ -1,0 +1,3 @@
+These scripts are for pulling down video from rtsp streams and splicing out frames with ffmpeg. In the latter case [beware that subprocessing and multiprocessing don't seem to play nicely](https://stackoverflow.com/questions/62562610/subprocess-called-from-multiprocess-not-finishing).
+
+Included is `maryland.csv`, which I take as input to `pull_video.py`, because our use case here was accumulating data from Maryland Department of Transportation cameras.
