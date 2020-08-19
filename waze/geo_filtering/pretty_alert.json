@@ -1,0 +1,31 @@
+{
+  "_id": {
+    "$oid": "5e861f670e8ac60001af1b54"
+  },
+  "geohash": "9qx",
+  "guid": "216aa181-501e-308a-933c-d67c74108bd7",
+  "hour_time_bucket": "2020||15||12",
+  "latitude": 37.611463,
+  "longitude": -112.837634,
+  "minute_time_bucket": "2020||15||12||4||0",
+  "segment_id": "",
+  "source": {
+    "confidence": 0,
+    "country": "US",
+    "location": {
+      "x": -112.837634,
+      "y": 37.611463
+    },
+    "magvar": 0,
+    "nThumbsUp": 0,
+    "pubMillis": 1584273844000,
+    "reliability": 6,
+    "reportDescription": "",
+    "reportRating": 0,
+    "street": "SR-148",
+    "subtype": "ROAD_CLOSED_EVENT",
+    "type": "ROAD_CLOSED",
+    "uuid": "216aa181-501e-308a-933c-d67c74108bd7"
+  },
+  "timestamp": 1584273844.0
+}
