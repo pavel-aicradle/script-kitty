@@ -4,7 +4,7 @@ Brian hacked macro points as a grid first, which I immediately flagged as potent
 
 ![](YXuwg.png)
 
-But I ended up considering this overkill. Ended up settling on my first, simpler idea of just picking a longitude and stepping a certain distance west iteratively, collecting points as macro points if they fell within the US border. `lunkard.py` implements this approach and dumps the results in `lunkard.json`. It uses `gz_2010_us_040_00_500k.json` for reference polygons of US states.
+But I ended up deciding this was overkill. Ended up settling on my first, simpler idea of just picking a longitude and stepping a certain distance west iteratively, collecting points as macro points if they fell within the US border. `lunkard.py` implements this approach and dumps the results in `lunkard.json`. It uses `gz_2010_us_040_00_500k.json` for reference polygons of US states.
 
 `gz_2010_us_050_00_500k.json` has polygons of all counties and county equivalents. I use this with `sort_macros.py` to generate `lunkard_by_county.json`, because Brian wanted macro points for each county separately.
 
@@ -18,7 +18,7 @@ It's neat to see the swirling patterns as points become less dense at the top th
 
 Then I played with I think Josh's `show_on_map.py` to produce:
 
-![](Screen%20Shot%202020-04-23%20at%201.06.08%20PM)
-![](Screen%20Shot%202020-04-23%20at%201.08.54%20PM)
+![](Screen%20Shot%202020-04-23%20at%201.06.08%20PM.png)
+![](Screen%20Shot%202020-04-23%20at%201.08.54%20PM.png)
 
 It looks even prettier, but this script really can't handle more than a few thousand points.
