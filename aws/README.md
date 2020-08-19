@@ -1,0 +1,1 @@
+Just some tiny examples from when I had to use `boto` or do anything complicated in a shell script.
