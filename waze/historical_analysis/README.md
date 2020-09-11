@@ -1,1 +1,1 @@
-The `historical` folder contains everything related to pulling down, filtering, and enhancing historical data from our data center machines.
+`dl_waze_data.py` is for downloading Waze data. `filter_and_sort.py` filters the downloaded stuff, for example throwing away updates that come from outside the US. `find_baselines.py` was designed to accumulate and average activity by week-hour over a long historical period to give us a notion of the "denominator" against which to compare current activity.
