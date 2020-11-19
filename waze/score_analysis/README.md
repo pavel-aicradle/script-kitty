@@ -18,7 +18,7 @@ Splitting the above out into the scores due to macro and micro points:
 
 With a limited budget of isochron requests to TomTom each minute, we couldn't reasonably query all the points of interest we wanted to in order to generate our traffic/social distance scores. Given a limited budget per county, how well would our score reflect the real score?
 
-This is a classic [subsampling problem](https://en.wikipedia.org/wiki/Sampling_distribution), and the answer is given as subsample scatter <font size="+11">∝</font> 1 / √(n), where n is the subsample size. I wrote some code to basically do some random subsampling and simulate that process to figure out how much this would hurt us.
+This is a classic [subsampling problem](https://en.wikipedia.org/wiki/Sampling_distribution), and the answer is given as subsample scatter ∝ 1 / √(n), where n is the subsample size. I wrote some code to basically do some random subsampling and simulate that process to figure out how much this would hurt us.
 
 <img src="Screen%20Shot%202020-04-22%20at%2012.12.25%20PM.png" width=500>
 <img src="Screen%20Shot%202020-04-22%20at%2012.14.31%20PM.png" width=500>
