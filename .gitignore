@@ -1,3 +1,6 @@
 .DS_Store
 iou_histograms/detections
 iou_histograms/groundtruths
+*.csv
+*.json
+*.manifest
