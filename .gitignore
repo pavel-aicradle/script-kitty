@@ -2,5 +2,5 @@
 iou_histograms/detections
 iou_histograms/groundtruths
 *.csv
-*.json
+*.json*
 *.manifest
