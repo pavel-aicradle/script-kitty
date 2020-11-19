@@ -1,0 +1,1 @@
+This is simply a script to find how many points of interest of each broad type exist in each county in Utah. It was to aid some of Brian's micro-point selection work.
