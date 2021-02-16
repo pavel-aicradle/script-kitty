@@ -1,4 +1,4 @@
-This is a place for some scripts I wrote on my way to understanding Kalman Filters for the Object Action Space (OASIS) project at SafeX.
+This is a place for some scripts I wrote on my way to understanding Kalman Filters.
 
 `tridiagonal.py` contains an implementation of the Tridiagonal Solve algorithm from Justin Romberg's Advanced Digital Signal Processing notes on Kalman Filters. I really like his derivation, because it builds up from a mere linear inverse problem, but I was having trouble understanding some of the proofs and had to demonstrate for myself that a critical step worked. This ended up giving me enough understanding to write a little blurb on page 8 of my [Kalman Filter Notes](https://safexai.atlassian.net/wiki/spaces/PROG/pages/1660911974/Kalman+Filter+Notes).
 
