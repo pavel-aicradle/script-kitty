@@ -1,5 +1,9 @@
-This is a place for some scripts I wrote on my way to understanding Kalman Filters.
+This is a place for some scripts I wrote on my way to understanding Kalman Filters and using one in practice.
 
 `tridiagonal.py` contains an implementation of the Tridiagonal Solve algorithm from Justin Romberg's Advanced Digital Signal Processing notes on Kalman Filters. I really like his derivation, because it builds up from a mere linear inverse problem, but I was having trouble understanding some of the proofs and had to demonstrate for myself that a critical step worked. This ended up giving me enough understanding to write a little blurb on page 8 of my [Kalman Filter Notes](https://safexai.atlassian.net/wiki/spaces/PROG/pages/1660911974/Kalman+Filter+Notes).
 
 `sequential_measurements.py` calculates the results of (1) applying a Kalman update using multiple measurements at once by stacking Hs and Rs up and (2) applying individual Kalman updates in sequence for each measurement. My intuition said they should be the same, but I ran in to difficulty when I tried to prove it symbolically. This script shows they are the same, which saves me quite a few lines of code and memory accumulating the larger matrices. It's also slightly better computationally, because updating involves finding the Kalman Gain, which involves inversion of an m x m matrix, and it's cheaper to invert a bunch of smaller matrices than one large one.
+
+`ellipses.py` was my experimental code while I thought through [this question](https://math.stackexchange.com/questions/4012751/how-to-find-standard-deviation-error-bound-from-variance-error-bound/4012779#4012779). Infamous though it ended up being for me, I really enjoyed the process of puzzling through this one.
+
+`rotations.py` is code I was playing with to demonstrate to myself that you can't recover clean Euler angles under arbitrary transformation, and to get an intuition for the order rotations are applied. It was mostly in service to [this question](https://math.stackexchange.com/questions/3920406/transform-roll-pitch-yaw-from-one-coordinate-system-to-another).

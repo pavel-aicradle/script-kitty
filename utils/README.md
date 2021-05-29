@@ -1,0 +1,1 @@
+`countlines.py` finds the number of code, comment, and whitespace lines in python code. I got curious as I was wrapping up the CODA project how much of what I had written fell in each bucket, so I coded this up.
